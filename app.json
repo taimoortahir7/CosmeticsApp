@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "dante_perfume",
+    "slug": "dante_perfume",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.taimoor.perfumeproject"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.taimoor.perfume_rn_project"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}

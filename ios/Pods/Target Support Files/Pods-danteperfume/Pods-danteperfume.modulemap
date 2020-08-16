@@ -1,0 +1,6 @@
+module Pods_danteperfume {
+  umbrella header "Pods-danteperfume-umbrella.h"
+
+  export *
+  module * { export * }
+}
